@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6935358800123749789}
   - component: {fileID: 976756228523918457}
   - component: {fileID: 8913898778624616656}
+  - component: {fileID: 4270035527140185984}
   m_Layer: 0
   m_Name: Bridge
   m_TagString: Untagged
@@ -112,3 +113,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4270035527140185984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7446828274635464791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a97e18d4a041d4ab0d9375cd42dee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bridges
+  BoxCollider: {fileID: 8913898778624616656}

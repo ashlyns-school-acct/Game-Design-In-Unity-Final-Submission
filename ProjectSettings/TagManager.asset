@@ -8,6 +8,7 @@ TagManager:
   - Ladder
   - Pit
   - Flag
+  - Bridge
   layers:
   - Default
   - TransparentFX
