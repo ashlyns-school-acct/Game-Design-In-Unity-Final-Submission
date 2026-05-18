@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         
         transform.Translate(Vector3.forward * Mathf.Abs(horizontalInput) * Time.deltaTime * moveSpeed);
+        
     }
 
     private void Jump()
@@ -71,6 +72,7 @@ public class PlayerController : MonoBehaviour
         if (horizontalInput  > 0)
         {
             transform.rotation = Quaternion.Euler(0, 90, 0);
+
         } else if (horizontalInput < 0)
         {
             transform.rotation = Quaternion.Euler(0, -90, 0);
